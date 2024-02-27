@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gillroy;
+}html,
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.pra{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    display: flex;
+    align-items: end;
+}
+.nav{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    color: white;
+    display: flex; 
+}
+.nav h2{
+    margin-top: 9px;
+}
+.nav-left{
+    width: 55%;
+    height: 45px;
+    /* background-color: chocolate; */
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 0 15px;
+}
+.nav-right{
+    width: 68%;
+    height: 45px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 10px;
+}
+.nav-right button{
+    border: solid white 1px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+.nav-right button:hover{
+    color: rgb(105, 101, 101);
+    cursor: pointer;
+    transition: all ease 2s;
+}
+
+
+.c1{
+    height: 55%;
+    width: 20%;
+    background-color: darkblue;
+    border-top-left-radius:50% ;
+    border-top-right-radius: 50%;
+    overflow: hidden;
+    
+}
+
+
+
+.c2{
+    height: 65%;
+    width: 20%;
+    background-color: yellow;
+    border-top-left-radius:50% ;
+    border-top-right-radius: 50%;
+    /* object-fit: cover; */
+    /* object-position: center; */
+    overflow: hidden;
+    
+}
+.c3{
+    height: 55%;
+    width: 20%;
+    background-color: tomato;
+    border-top-left-radius:50% ;
+    border-top-right-radius: 50%;
+    /* object-fit: cover; */
+    /* object-position: center; */
+    overflow: hidden;
+}
+.c4{
+    height: 75%;
+    width: 20%;
+    background-color: greenyellow;
+    border-top-left-radius:50% ;
+    border-top-right-radius: 50%;
+    /* object-fit: cover; */
+    /* object-position: center; */
+    overflow: hidden;
+}
+.c5{
+    height: 65%;
+    width: 20%;
+    background-color: orange;
+    border-top-left-radius:50% ;
+    border-top-right-radius: 50%;
+    /* object-fit: cover; */
+    /* object-position: center; */
+    overflow: hidden;
+}
+ .pra .c:hover{
+    transition: all ease 2s;
+    scale: 1.2;
+    cursor: pointer;
+}
+.box1{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 8%;
+    top:  19%;
+    color: white;
+}
+.box2{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 23%;
+    right: 7%;
+    color: white;
+}
+.box2 button{
+    border: solid white 1px;
+    background-color: black;
+    color: white;
+    padding: 8px 15px ;
+    margin-top: 20px;
+}
+.box2 button:hover{
+    transition: all ease 2s;
+    color: rgb(121, 116, 116);
+    cursor: pointer;
+}

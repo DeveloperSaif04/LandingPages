@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}html,
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.back{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(246, 156, 77, 0.708);
+    
+}
+.back p {
+    font-size: 800px;
+    color: white;
+}
+.back h5 {
+     font-size: 300px;
+     font-family: sans-serif;
+}
+.back h5 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    position: absolute;
+    top: -14%;
+    right: -1%;
+    color: white;
+}
+img{
+    position: absolute;
+    top: 40%;
+}
+.nav{
+    width: 30%;
+    height: 5%;
+    background-color: rgba(246, 156, 77, 0.947);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 15px;
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box{
+    height: 60%;
+    width: 40%;
+    background-color: aqua;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background-image: url(https://images.unsplash.com/photo-1602910344008-22f323cc1817?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWFrZXVwfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+}
+.nav1{
+    width: 70%;
+    height: 5%;
+    background-color: rgba(246, 156, 77, 0.192);
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.over h1{
+     margin-left: 15%;
+    font-weight: 200;
+    color: white;
+    
+    
+}
+
+.over{
+    width: 70%;
+    height: 95%;
+    
+    background-color: rgba(246, 156, 77, 0.192);
+}
+button{
+    padding: 30px 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-top: 30%;
+    margin-left: 10%;
+    transition: calc(-50% -50%);
+    font-size: 20px;
+}
+button:hover{
+    transition: all ease 2s;
+    scale: 1.2;
+    background-color: white;
+}
+.over p{
+    margin-left: 15%;
+    
+}
+.over{
+    position: absolute;
+    bottom: 0;
+}
